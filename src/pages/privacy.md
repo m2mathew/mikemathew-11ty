@@ -7,8 +7,6 @@ description: I respect the EU General Data Protection Regulation (GDPR). This po
 layout: page
 ---
 
-Edit your details in `_data/meta.js`
-
 I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
 
 **What background data is collected?**
@@ -25,9 +23,7 @@ This website transmits itself using HTTPS, encrypting all data between the brows
 
 **Data controller**
 {{ meta.address.firma }}
-{{ meta.address.street }}
-{{ meta.address.zip }}, {{ meta.address.city }}
-Tel: <a href="tel:{{ meta.address.mobileCall }}">{{ meta.address.mobileDisplay }}</a>
+{{ meta.address.city }}, {{ meta.address.state }}
 Mail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 If you have any questions or doubts, please contact me: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
