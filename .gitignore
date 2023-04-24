@@ -5,9 +5,15 @@ node_modules
 dist
 src/_includes/css
 src/_includes/scripts
+src/_includes/global-inline.css
+src/_includes/theme-toggle-inline.js
 
 # cache
 .cache
+_cache/
 
 # secret data
 .env
+
+# OS generated files
+.DS_Store
