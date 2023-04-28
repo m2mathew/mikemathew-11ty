@@ -62,6 +62,7 @@
     "postcss-js": "^4.0.0",
     "rimraf": "^5.0.0",
     "sanitize-html": "^2.7.2",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "terser": "^5.17.1"
   }
 }
