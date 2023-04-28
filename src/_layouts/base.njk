@@ -31,6 +31,12 @@
     <!-- include blogpost schema  -->
     {%- include "schemas/blogpost-schema.njk" %} {% endif %}
 
+     <!-- 5 synchronous css / inline css  -->
+    {% set css %}{% include "global-inline.css" %}{% endset %}
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+
     <!-- synchronous css / inline css  -->
     <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 

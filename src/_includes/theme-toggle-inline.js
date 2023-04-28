@@ -1,15 +1,11 @@
 const storageKey = "theme-preference";
 const switchSound = new Audio("/assets/sounds/click.wav");
-const onClick = () => {
-  switchSound.play();
-  theme.value = theme.value === "light" ? "dark" : "light";
-  setPreference();
-};
 const getColorPreference = () => {
-  if (localStorage.getItem(storageKey))
+  if (localStorage.getItem(storageKey)) {
     return localStorage.getItem(storageKey);
-  else
+  } else {
     return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
 };
 const setPreference = () => {
   localStorage.setItem(storageKey, theme.value);
@@ -23,6 +19,12 @@ const theme = {
   value: getColorPreference()
 };
 reflectPreference();
+const onClick = () => {
+  console.log("played sound", switchSound);
+  switchSound.play();
+  theme.value = theme.value === "light" ? "dark" : "light";
+  setPreference();
+};
 window.onload = () => {
   reflectPreference();
   document.querySelector("#theme-toggle").addEventListener("click", onClick);
