@@ -28,6 +28,6 @@ I post on Mastadon as [@drumsensei](https://mstdn.social/@drumsensei) and also o
 
 This site is built with [Eleventy]() which means most content was written using [Markdown](https://daringfireball.net/projects/markdown/).
 
-The original incarnation of the site was a [RapidWeaver](http://realmacsoftware.com/rapidweaver/) project. After a brief rewrite in [Jekyll](https://jekyllrb.com/) then a longer time hanging out with [GatsbyJS](https://www.gatsbyjs.com/), we ended up here! Hosting by [Netlify](https://www.netlify.com/). Coding is done in [Visual Studio Code](https://code.visualstudio.com/) (with generous assistance from the dev tools). I use a 2021 16" M1 Max MacBook Pro — it's the best machine I've ever used.
+The original incarnation of the site was a [RapidWeaver](http://realmacsoftware.com/rapidweaver/) project. After a brief rewrite in [Jekyll](https://jekyllrb.com/) then a longer time hanging out with [GatsbyJS](https://www.gatsbyjs.com/), we ended up here! Hosting by [Netlify](https://www.netlify.com/). Coding happens in [Visual Studio Code](https://code.visualstudio.com/) (with generous assistance from browser dev tools). I use a 2021 16" M1 Max MacBook Pro — it's the best machine I've ever used.
 
-As a constant learner, I will likely be poking and prodding here and there throughout this space, so it might not always look the same. Also, there is little guarantee that it will appear correctly on older browsers, so [keep them up to date](https://browsehappy.com")!
+As a constant learner, I will likely be poking and prodding here and there throughout this space, so it might not always look the same. Also, there is little guarantee that it will appear correctly on older browsers, so [keep them up to date](https://browsehappy.com)!

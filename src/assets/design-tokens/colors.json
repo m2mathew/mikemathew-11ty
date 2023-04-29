@@ -3,32 +3,72 @@
   "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
   "items": [
     {
-      "name": "Dark",
-      "value": "#404040"
-    },
-    {
       "name": "Light",
-      "value": "#F3F3F3"
+      "value": "hsl(48, 100%, 98%)"
     },
     {
-      "name": "Light Glare",
-      "value": "#FFFFFF"
+      "name": "Light Code",
+      "value": "hsl(48, 34%, 94%)"
     },
     {
-      "name": "Primary",
-      "value": "#5F3694"
+      "name": "Dark",
+      "value": "hsl(0, 0%, 20%)"
     },
     {
-      "name": "Primary Glare",
-      "value": "#F4D0DF"
+      "name": "Dark Code",
+      "value": "hsl(0, 0%, 25%)"
     },
     {
-      "name": "Secondary",
-      "value": "#0369A1"
+      "name": "Dark Card",
+      "value": "hsl(0, 0%, 25%)"
     },
     {
-      "name": "Secondary Glare",
-      "value": "#D8E2F4"
+      "name": "Primary Light",
+      "value": "hsl(0, 75%, 59%)"
+    },
+    {
+      "name": "Primary Dark",
+      "value": "hsl(0, 55%, 59%)"
+    },
+    {
+      "name": "Primary Shade Light",
+      "value": "hsl(0, 61%, 48%)"
+    },
+    {
+      "name": "Primary Shade Dark",
+      "value": "hsl(0, 41%, 48%)"
+    },
+    {
+      "name": "Secondary Light",
+      "value": "hsl(230, 75%, 59%)"
+    },
+    {
+      "name": "Secondary Dark",
+      "value": "hsl(230, 55%, 59%)"
+    },
+    {
+      "name": "Tertiary Light",
+      "value": "hsl(348, 75%, 59%)"
+    },
+    {
+      "name": "Tertiary Dark",
+      "value": "hsl(348, 55%, 59%)"
+    },
+    {
+      "name": "Quaternary Light",
+      "value": "hsl(48, 90%, 59%)"
+    },
+    {
+      "name": "Quaternary Dark",
+      "value": "hsl(48, 70%, 59%)"
+    },
+    {
+      "name": "Quinary Light",
+      "value": "hsl(144, 80%, 59%)"
+    },
+    {
+      "name": "Quinary Dark",
+      "value": "hsl(144, 60%, 59%)"
     }
   ]
 }
